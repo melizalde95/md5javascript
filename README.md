@@ -17,7 +17,7 @@ Obviamente le puedes cambiar el mensaje (pero sin alterar ningun solo espacio de
 Y si quieres comparar ambos resultados (por si no conofias a simple vista) usa esto
 
 ```shell
-HASH_BASH="da843123e390e658ae263149d7ca7333s"    # xdxd saludos
+HASH_BASH="da843123e390e658ae263149d7ca7333"    # xdxd saludos
 HASH_JS="da843123e390e658ae263149d7ca7333"
 
 diff <(echo "$HASH_BASH") <(echo "$HASH_JS") &> /dev/null
