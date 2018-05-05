@@ -1,3 +1,11 @@
+# Para Ivan
+
+Esto es solo una implementacion del repo del otro culero.
+Ya solo tienes que mandar a llamar sus archivos desde un tag html de script.
+
+El ejemplo se encuentra en el archivo de "prueba.html" en la raiz del repo.
+Abrelo en el explorador y te aparecera un console.log en la interfaz de desarrolladores.
+
 # JavaScript MD5
 
 ## Demo
