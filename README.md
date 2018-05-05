@@ -6,6 +6,26 @@ Ya solo tienes que mandar a llamar sus archivos desde un tag html de script.
 El ejemplo se encuentra en el archivo de "prueba.html" en la raiz del repo.
 Abrelo en el explorador y te aparecera un console.log en la interfaz de desarrolladores.
 
+Para corroborar que si es un md5, puedes probar en tu terminal lo siguiente
+
+```shell
+md5sum <(echo -n "popodrilo es un primor" ) | cut -d " " -f 1
+```
+
+Obviamente le puedes cambiar el mensaje (pero sin alterar ningun solo espacio del comando)
+
+Y si quieres comparar ambos resultados (por si no conofias a simple vista) usa esto
+
+```shell
+HASH_BASH="da843123e390e658ae263149d7ca7333s"    # xdxd saludos
+HASH_JS="da843123e390e658ae263149d7ca7333"
+
+diff <(echo "$HASH_BASH") <(echo "$HASH_JS") &> /dev/null
+[[ "$?" == 0 ]] && echo 'son identicos' || echo 'son diferentes'
+```
+
+O copialos en sublime y comparalos, etc, etc.
+
 # JavaScript MD5
 
 ## Demo
